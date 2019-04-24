@@ -1,0 +1,44 @@
+.bg-light-green{
+    background-color: lightgreen;
+}
+.dib{
+    display: inline-block;
+}
+.br3{
+    border-radius: .5rem;
+}
+.pa3{
+    padding: 1rem;
+}
+.ma2{
+    margin: 1rem;
+}
+.grow{
+    transition: all .2s ease-in;
+}
+.grow:hover{
+    transform: scale(1.1);
+}
+.bw2{
+    border-width: .25rem;
+}
+.shadow-5{
+    box-shadow:4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+}
+.tc{
+    text-align: center;
+}
+
+
+
+
+
+
+@keyframes grow{
+    from{
+        width: 100%;
+    }
+    to{
+        width: 110%;
+    }
+}
